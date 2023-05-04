@@ -13,6 +13,7 @@ hr{
 :root{
     --primary-color:#FDA4AF;
     --dar-grey: #475569;
+    --off-white:#f3f4f6;
 
 }
 
@@ -100,6 +101,7 @@ hr{
 
 .hero{
     padding: 2rem;
+
 }
 
 .hero .hero-img{
@@ -112,4 +114,39 @@ hr{
 .hero .hero-header{
     color: var(--dar-grey);
     padding-top: 1rem;
+}
+
+/* section */
+
+.section{
+
+    padding: 2rem;
+
+}
+.section h1{
+    text-align: center;
+   
+}
+
+.ow{
+   background-color:var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+
+}
+
+.footer ul{
+    padding-inline-start: 0%;
+
+
 }
